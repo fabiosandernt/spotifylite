@@ -7221,19 +7221,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\fabio\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\SpotifyLite.Api.csproj",
+      "projectUniqueName": "C:\\Users\\fabio\\Documents\\Projects\\SpotifyLite\\spotifylite\\SpotifyLite.Api\\SpotifyLite.Api.csproj",
       "projectName": "SpotifyLite.Api",
-      "projectPath": "D:\\Projects\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\SpotifyLite.Api.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\obj\\",
+      "projectPath": "C:\\Users\\fabio\\Documents\\Projects\\SpotifyLite\\spotifylite\\SpotifyLite.Api\\SpotifyLite.Api.csproj",
+      "packagesPath": "C:\\Users\\fabio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fabio\\Documents\\Projects\\SpotifyLite\\spotifylite\\SpotifyLite.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fabio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7247,11 +7247,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Projects\\SpotifyLite\\SpotifyLite\\SpotifyLite.Application\\SpotifyLite.Application.csproj": {
-              "projectPath": "D:\\Projects\\SpotifyLite\\SpotifyLite\\SpotifyLite.Application\\SpotifyLite.Application.csproj"
+            "C:\\Users\\fabio\\Documents\\Projects\\SpotifyLite\\spotifylite\\SpotifyLite.Application\\SpotifyLite.Application.csproj": {
+              "projectPath": "C:\\Users\\fabio\\Documents\\Projects\\SpotifyLite\\spotifylite\\SpotifyLite.Application\\SpotifyLite.Application.csproj"
             },
-            "D:\\Projects\\SpotifyLite\\SpotifyLite\\SpotifyLite.Infra\\SpotifyLite.Infra.csproj": {
-              "projectPath": "D:\\Projects\\SpotifyLite\\SpotifyLite\\SpotifyLite.Infra\\SpotifyLite.Infra.csproj"
+            "C:\\Users\\fabio\\Documents\\Projects\\SpotifyLite\\spotifylite\\SpotifyLite.Infra\\SpotifyLite.Infra.csproj": {
+              "projectPath": "C:\\Users\\fabio\\Documents\\Projects\\SpotifyLite\\spotifylite\\SpotifyLite.Infra\\SpotifyLite.Infra.csproj"
             }
           }
         }
@@ -7303,7 +7303,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

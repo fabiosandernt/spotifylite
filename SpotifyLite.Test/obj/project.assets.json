@@ -6807,19 +6807,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\fabio\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\SpotifyLite\\SpotifyLite\\SpotifyLite.Test\\SpotifyLite.Test.csproj",
+      "projectUniqueName": "C:\\Users\\fabio\\Documents\\Projects\\SpotifyLite\\spotifylite\\SpotifyLite.Test\\SpotifyLite.Test.csproj",
       "projectName": "SpotifyLite.Test",
-      "projectPath": "D:\\Projects\\SpotifyLite\\SpotifyLite\\SpotifyLite.Test\\SpotifyLite.Test.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\SpotifyLite\\SpotifyLite\\SpotifyLite.Test\\obj\\",
+      "projectPath": "C:\\Users\\fabio\\Documents\\Projects\\SpotifyLite\\spotifylite\\SpotifyLite.Test\\SpotifyLite.Test.csproj",
+      "packagesPath": "C:\\Users\\fabio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fabio\\Documents\\Projects\\SpotifyLite\\spotifylite\\SpotifyLite.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fabio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6833,8 +6833,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Projects\\SpotifyLite\\SpotifyLite\\SpotifyLite.Application\\SpotifyLite.Application.csproj": {
-              "projectPath": "D:\\Projects\\SpotifyLite\\SpotifyLite\\SpotifyLite.Application\\SpotifyLite.Application.csproj"
+            "C:\\Users\\fabio\\Documents\\Projects\\SpotifyLite\\spotifylite\\SpotifyLite.Application\\SpotifyLite.Application.csproj": {
+              "projectPath": "C:\\Users\\fabio\\Documents\\Projects\\SpotifyLite\\spotifylite\\SpotifyLite.Application\\SpotifyLite.Application.csproj"
             }
           }
         }
@@ -6889,7 +6889,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

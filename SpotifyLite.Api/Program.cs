@@ -15,7 +15,7 @@ public class Program
 
         builder.Services
                .RegisterApplication()
-               .RegisterRepository(builder.Configuration.GetConnectionString("SpotifyLite"));
+               .RegisterRepository(builder.Configuration.GetConnectionString("Default"));
 
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
