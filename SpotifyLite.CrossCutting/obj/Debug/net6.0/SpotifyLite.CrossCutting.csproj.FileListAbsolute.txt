@@ -1,0 +1,12 @@
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.CrossCutting\bin\Debug\net6.0\SpotifyLite.CrossCutting.deps.json
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.CrossCutting\bin\Debug\net6.0\SpotifyLite.CrossCutting.dll
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.CrossCutting\bin\Debug\net6.0\SpotifyLite.CrossCutting.pdb
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.CrossCutting\obj\Debug\net6.0\SpotifyLite.CrossCutting.csproj.AssemblyReference.cache
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.CrossCutting\obj\Debug\net6.0\SpotifyLite.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.CrossCutting\obj\Debug\net6.0\SpotifyLite.CrossCutting.AssemblyInfoInputs.cache
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.CrossCutting\obj\Debug\net6.0\SpotifyLite.CrossCutting.AssemblyInfo.cs
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.CrossCutting\obj\Debug\net6.0\SpotifyLite.CrossCutting.csproj.CoreCompileInputs.cache
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.CrossCutting\obj\Debug\net6.0\SpotifyLite.CrossCutting.dll
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.CrossCutting\obj\Debug\net6.0\refint\SpotifyLite.CrossCutting.dll
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.CrossCutting\obj\Debug\net6.0\SpotifyLite.CrossCutting.pdb
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.CrossCutting\obj\Debug\net6.0\ref\SpotifyLite.CrossCutting.dll

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "l3RtYAOa4jBpVmshSkOHl5CKV19Uxc39mY4jEXkh14I=",
+  "Source": "SpotifyLite.Api",
+  "BasePath": "_content/SpotifyLite.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

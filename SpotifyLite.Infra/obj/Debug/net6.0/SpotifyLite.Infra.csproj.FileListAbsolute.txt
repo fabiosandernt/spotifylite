@@ -1,0 +1,17 @@
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.Infra\bin\Debug\net6.0\SpotifyLite.Infra.deps.json
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.Infra\bin\Debug\net6.0\SpotifyLite.Infra.dll
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.Infra\bin\Debug\net6.0\SpotifyLite.Infra.pdb
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.Infra\bin\Debug\net6.0\SpotifyLite.CrossCutting.dll
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.Infra\bin\Debug\net6.0\SpotifyLite.Domain.dll
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.Infra\bin\Debug\net6.0\SpotifyLite.Domain.pdb
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.Infra\bin\Debug\net6.0\SpotifyLite.CrossCutting.pdb
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.Infra\obj\Debug\net6.0\SpotifyLite.Infra.csproj.AssemblyReference.cache
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.Infra\obj\Debug\net6.0\SpotifyLite.Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.Infra\obj\Debug\net6.0\SpotifyLite.Infra.AssemblyInfoInputs.cache
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.Infra\obj\Debug\net6.0\SpotifyLite.Infra.AssemblyInfo.cs
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.Infra\obj\Debug\net6.0\SpotifyLite.Infra.csproj.CoreCompileInputs.cache
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.Infra\obj\Debug\net6.0\SpotifyLite.Infra.csproj.CopyComplete
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.Infra\obj\Debug\net6.0\SpotifyLite.Infra.dll
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.Infra\obj\Debug\net6.0\refint\SpotifyLite.Infra.dll
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.Infra\obj\Debug\net6.0\SpotifyLite.Infra.pdb
+D:\Projects\SpotifyLite\SpotifyLite\SpotifyLite.Infra\obj\Debug\net6.0\ref\SpotifyLite.Infra.dll
