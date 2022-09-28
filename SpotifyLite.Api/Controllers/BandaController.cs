@@ -1,7 +1,10 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using MediatR;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SpofityLite.Application.Album.Dto;
 using SpofityLite.Application.Album.Service;
+using SpotifyLite.Application.Album.Handler.Command;
+using SpotifyLite.Application.Album.Handler.Query;
 
 namespace SpotifyLite.Api.Controllers
 {
@@ -9,28 +12,45 @@ namespace SpotifyLite.Api.Controllers
     [ApiController]
     public class BandaController : ControllerBase
     {
-        private readonly IBandaService bandaService;
+        private readonly IMediator mediator;
 
-        public BandaController(IBandaService bandaService)
+        public BandaController(IMediator mediator)
         {
-            this.bandaService = bandaService;
+            this.mediator = mediator;
         }
 
         [HttpGet]
-        public async Task<IActionResult> ObterTodos()
+        public async Task<IActionResult> Get()
         {
-            return Ok(await this.bandaService.ObterTodos());
+            return Ok(await this.mediator.Send(new GetAllBandaQuery()));
         }
 
-        [HttpPost]
+        [HttpGet("ObterPorId")]
+        public async Task<IActionResult> ObterPorId(Guid id)
+        {
+            return Ok(await this.mediator.Send(new GetBandaQuery(id)));
+        }
+
+        [HttpPost()]
         public async Task<IActionResult> Criar(BandaInputDto dto)
         {
-            if (ModelState.IsValid == false)
-                return BadRequest(ModelState);
-
-            var result = await this.bandaService.Criar(dto);
-
-            return Created($"/{result.Id}", result);
+            var result = await this.mediator.Send(new CreateBandaCommand(dto));
+            return Created($"{result.Banda.Id}", result.Banda);
         }
+
+        [HttpPut()]
+        public async Task<IActionResult> Atualizar(BandaInputDto dto)
+        {
+            var result = await this.mediator.Send(new UpdateBandaCommand(dto));
+            return Ok(result.Banda);
+        }
+
+        [HttpDelete()]
+        public async Task<IActionResult> Apagar(BandaInputDto dto)
+        {
+            var result = await this.mediator.Send(new DeleteBandaCommand(dto));
+            return Ok(result.Banda);
+        }
+
     }
 }
