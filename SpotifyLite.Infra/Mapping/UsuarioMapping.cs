@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SpotifyLite.Repository.Mapping
+namespace SpotifyLite.Infra.Mapping
 {
     public class UsuarioMapping : IEntityTypeConfiguration<Usuario>
     {

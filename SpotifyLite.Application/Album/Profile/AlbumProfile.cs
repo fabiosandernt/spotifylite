@@ -1,4 +1,5 @@
 ﻿using SpofityLite.Application.Album.Dto;
+using SpotifyLite.Application.Album.Dto;
 using SpotifyLite.Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -25,6 +26,15 @@ namespace SpofityLite.Application.Album.Profile
             CreateMap<BandaInputDto, Banda>();
 
             CreateMap<Banda, BandaOutputDto>();
+
+            CreateMap<UsuarioInputDto, Usuario>();
+
+            CreateMap<Usuario, UsuarioOutputDto>();
+
+            CreateMap<PlaylistInputDto, Playlist>();
+
+            CreateMap<Playlist, PlaylistOutputDto>();
+
 
         }
 

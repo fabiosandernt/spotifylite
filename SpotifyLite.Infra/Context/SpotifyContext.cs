@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SpotifyLite.Repository.Context
+namespace SpotifyLite.Infra.Context
 {
     public class SpotifyContext : DbContext
     {

@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using SpotifyLite.Domain.Interfaces;
-using SpotifyLite.Repository.Context;
-using SpotifyLite.Repository.Database;
-using SpotifyLite.Repository.Repository;
+using SpotifyLite.Infra.Context;
+using SpotifyLite.Infra.Database;
+using SpotifyLite.Infra.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,6 +25,7 @@ namespace SpotifyLite.Repository
             services.AddScoped<IBandaRepository, BandaRepository>();
             services.AddScoped<IAlbumRepository, AlbumRepository>();
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<IPlaylistRepository, PlaylistRepository>();
 
             return services;
         }

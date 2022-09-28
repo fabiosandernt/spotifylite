@@ -23,9 +23,36 @@ namespace SpofityLite.Application.Album.Service
 
         public async Task<BandaOutputDto> Criar(BandaInputDto dto)
         {
-            var banda = this.mapper.Map<Banda>(dto);
+            Banda banda = this.mapper.Map<Banda>(dto);
 
             await this.bandaRepository.Save(banda);
+
+            var banda2 = this.mapper.Map<BandaOutputDto>(banda);
+
+            return this.mapper.Map<BandaOutputDto>(banda);
+        }
+
+        public async Task<BandaOutputDto> Atualizar(BandaInputDto dto)
+        {
+            var banda = this.mapper.Map<SpotifyLite.Domain.Models.Banda>(dto);
+
+            await this.bandaRepository.Update(banda);
+
+            return this.mapper.Map<BandaOutputDto>(banda);
+        }
+
+        public async Task<BandaOutputDto> Deletar(BandaInputDto dto)
+        {
+            var banda = this.mapper.Map<Banda>(dto);
+
+            await this.bandaRepository.Delete(banda);
+
+            return this.mapper.Map<BandaOutputDto>(banda);
+        }
+
+        public async Task<BandaOutputDto> ObterPorId(Guid id)
+        {
+            var banda = await this.bandaRepository.Get(id);
 
             return this.mapper.Map<BandaOutputDto>(banda);
         }

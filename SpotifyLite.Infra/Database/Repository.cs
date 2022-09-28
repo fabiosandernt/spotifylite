@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Storage;
 using SpotifyLite.CrossCutting;
 using SpotifyLite.Domain.Interfaces;
-using SpotifyLite.Repository.Context;
+using SpotifyLite.Infra.Context;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -11,7 +11,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SpotifyLite.Repository.Database
+namespace SpotifyLite.Infra.Database
 {
     public class Repository<T> : IRepository<T> where T: class
     {

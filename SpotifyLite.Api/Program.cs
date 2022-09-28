@@ -1,4 +1,3 @@
-using SpotifyLite.Repository.Context;
 using Microsoft.EntityFrameworkCore;
 using SpotifyLite.Repository;
 using SpofityLite.Application;
