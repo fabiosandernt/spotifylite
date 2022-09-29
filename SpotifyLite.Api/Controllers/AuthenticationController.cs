@@ -11,9 +11,9 @@ namespace SpotifyLite.Api.Controllers
     [ApiController]
     public class AuthenticationController : ControllerBase
     {
-        private string jwtsecret = "ACDt1vR3lXToPQ1g3MyN";
-        private string audience = "";
-        private string issuer = "";
+        private string jwtsecret = "FBAs3rR4yTLuQP7d8WeJ";
+        private string audience = "spotify-api";
+        private string issuer = "https://localhost:49153";
 
         [HttpPost]
         public IActionResult Token([FromForm] string username, [FromForm] string password)
@@ -43,7 +43,7 @@ namespace SpotifyLite.Api.Controllers
 
             var claims = new[]
             {
-                new Claim(JwtRegisteredClaimNames.Name,"Isaias"),
+                new Claim(JwtRegisteredClaimNames.Name,"Fabio"),
                 new Claim("role","Admin")
             };
 

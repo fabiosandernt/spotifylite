@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SpotifyLite.Application.Album.Dto;
 using SpotifyLite.Application.Album.Handler.Command;
@@ -8,6 +9,7 @@ namespace SpotifyLite.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class PlaylistController : ControllerBase
     {
         private readonly IMediator mediator;

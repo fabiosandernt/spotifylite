@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SpofityLite.Application.Album.Dto;
@@ -10,6 +11,7 @@ namespace SpotifyLite.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class BandaController : ControllerBase
     {
         private readonly IMediator mediator;

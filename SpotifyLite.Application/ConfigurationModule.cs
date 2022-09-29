@@ -40,7 +40,7 @@ namespace SpofityLite.Application
                             ValidateLifetime = true,
                             ValidateIssuerSigningKey = true,
                             ValidateAudience = false,
-                            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("ACDt1vR3lXToPQ1g3MyN"))
+                            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("FBAs3rR4yTLuQP7d8WeJ"))
                         };
                     });
 
