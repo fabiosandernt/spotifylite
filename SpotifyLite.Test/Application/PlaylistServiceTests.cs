@@ -8,5 +8,6 @@ namespace SpotifyLite.Test.Application
 {
     internal class PlaylistServiceTests
     {
+        //comentario de teste
     }
 }
