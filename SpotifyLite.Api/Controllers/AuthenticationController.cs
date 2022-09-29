@@ -13,7 +13,7 @@ namespace SpotifyLite.Api.Controllers
     {
         private string jwtsecret = "FBAs3rR4yTLuQP7d8WeJ";
         private string audience = "spotify-api";
-        private string issuer = "https://localhost:49153";
+        private string issuer = "https://fabspotify.azurewebsites.net";
 
         [HttpPost]
         public IActionResult Token([FromForm] string username, [FromForm] string password)
